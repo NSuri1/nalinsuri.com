@@ -63,7 +63,7 @@ header {
     justify-content:center;
 }
 
-#aboutMe, #social {
-	border-bottom: solid black;
+#aboutMe {
+	border-bottom: dotted black;
 	padding-bottom: 10px;
 }

@@ -1,16 +1,18 @@
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
-
 body {
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
     background-color: #EFEBE9;
     color: #263238;
 } 
 
-header {
-	text-align: center;
+#container {
 	padding-left: 15%;
 	padding-right: 15%;
+}
+
+header {
+	text-align: center;
 }
 
 #mePic {
@@ -25,9 +27,11 @@ header {
 	font-weight: bolder;
 }
 
-#aboutMe, #social {
-	padding-left: 15%;
-	padding-right: 15%;
+#nav {
+    border-top: solid black;
+    border-bottom: solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #linked, #git, #fb {
@@ -39,13 +43,6 @@ header {
 
 #linked:hover, #git:hover, #fb:hover {
 	color: #424242;
-}
-
-#nav {
-    border-top: solid black;
-    border-bottom: solid black;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 #nav, #social {
@@ -64,4 +61,9 @@ header {
 #social ul {
     display: flex;
     justify-content:center;
+}
+
+#aboutMe, #social {
+	border-bottom: solid black;
+	padding-bottom: 10px;
 }

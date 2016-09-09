@@ -9,6 +9,8 @@ body {
 
 header {
 	text-align: center;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 #mePic {
@@ -35,6 +37,13 @@ header {
 
 #linked:hover, #git:hover, #fb:hover {
 	color: #424242;
+}
+
+#nav {
+    border-top: solid black;
+    border-bottom: solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #nav, #social {

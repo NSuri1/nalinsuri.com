@@ -32,6 +32,8 @@ header {
 
 #linked, #git, #fb {
 	padding: 5px;
+	margin-right: 15px;
+	margin-left: 15px;
 	color:black;
 }
 
@@ -57,4 +59,9 @@ header {
 #nav li{
 	padding-left: 5%;
 	padding-right: 5%;
+}
+
+#social ul {
+    display: flex;
+    justify-content:center;
 }

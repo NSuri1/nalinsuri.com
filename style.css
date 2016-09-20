@@ -2,8 +2,8 @@
 
 body {
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
-    background-color: #EFEBE9;
-    color: #263238;
+    background-image: url("back.png");
+    color: #E0F2F1;
 } 
 
 #container {
@@ -28,21 +28,29 @@ header {
 }
 
 #nav {
-    border-top: solid black;
-    border-bottom: solid black;
+    border-top: solid #00796B;
+    border-bottom: solid #00796B;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-#linked, #git, #fb {
+a {
+	color: #E0F2F1;
+}
+
+a:hover {
+	color: #00796B;
+}
+
+#linked, #git {
 	padding: 5px;
 	margin-right: 15px;
 	margin-left: 15px;
-	color:black;
+	color: #E0F2F1;
 }
 
-#linked:hover, #git:hover, #fb:hover {
-	color: #424242;
+#linked:hover, #git:hover {
+	color: #00796B;
 }
 
 #nav, #social {
@@ -54,8 +62,8 @@ header {
 }
 
 #nav li{
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 9%;
+	padding-right: 9%;
 }
 
 #social ul {
@@ -63,7 +71,9 @@ header {
     justify-content:center;
 }
 
-#aboutMe {
-	border-bottom: dotted black;
+#aboutMe, #social{
+	border-bottom: dotted #00796B;
 	padding-bottom: 10px;
 }
+
+

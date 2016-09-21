@@ -13,6 +13,12 @@ body {
 
 header {
 	text-align: center;
+	color: #009688;
+
+}
+
+h3{
+	color: #009688;
 }
 
 #mePic {
@@ -28,8 +34,8 @@ header {
 }
 
 #nav {
-    border-top: solid #00796B;
-    border-bottom: solid #00796B;
+    border-top: solid #009688;
+    border-bottom: solid #009688;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -39,7 +45,11 @@ a {
 }
 
 a:hover {
-	color: #00796B;
+	color: #009688;
+}
+
+#first {
+	text-align: center;
 }
 
 #linked, #git {
@@ -50,7 +60,7 @@ a:hover {
 }
 
 #linked:hover, #git:hover {
-	color: #00796B;
+	color: #009688;
 }
 
 #nav, #social {
@@ -72,8 +82,32 @@ a:hover {
 }
 
 #aboutMe, #social{
-	border-bottom: dotted #00796B;
+	border-bottom: dotted #009688;
 	padding-bottom: 10px;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 50%;
+}
 
+input[type=text], textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding:10px;
+    background-color: #009688;
+    color: #E0F2F1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}

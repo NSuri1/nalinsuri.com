@@ -1,2 +1,2 @@
-suriosity.com ------ My personal webpage\n
-Site hosted using Digital Ocean, using Nginx. \nEmail sent using Postfix configuration
+# suriosity.com ------ My personal webpage
+## Site hosted using Digital Ocean, using Nginx. Email sent using Postfix configuration

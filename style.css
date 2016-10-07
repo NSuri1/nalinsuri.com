@@ -4,7 +4,7 @@ body{
 }
 
 p, table {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Lucida Console", Monaco, monospace;
 }
 
 video#bgVideo { 

@@ -136,7 +136,7 @@ header {
 	padding-top: 10%;
 	padding-left: 15%;
 	padding-right: 15%;
-	overflow: scroll;
+	overflow-y: scroll;
 }
 
 input[type=text],textarea {

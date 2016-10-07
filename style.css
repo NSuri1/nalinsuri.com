@@ -1,35 +1,41 @@
-body{
+body {
 	margin: 0;
-	font-family: Impact, Charcoal, sans-serif;
+	font-family: Impact,Charcoal,sans-serif;
 }
 
-p, table {
-	font-family: "Lucida Console", Monaco, monospace;
+p,table {
+	font-family: "Lucida Console",Monaco,monospace;
 }
 
-video#bgVideo { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(White-Keyboard.jpg) no-repeat;
-    background-size: cover; 
+video#bgVideo {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url(White-Keyboard.jpg) no-repeat;
+	background-size: cover;
 }
- @media screen and (max-device-width: 800px) {
-    html {
-         background: url(White-Keyboard.jpg) #000 no-repeat center center fixed;
-    }
-    #bgVideo {
-        display: none;
-    }
+
+@media screen and (max-device-width: 800px) {
+	html {
+		background: url(White-Keyboard.jpg) #FFF no-repeat center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	#bgVideo {
+		display: none;
+	}
 }
 
 header {
@@ -39,10 +45,10 @@ header {
 	background-color: #111;
 	border: solid #000;
 	position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 100;
-    font-size: 105%;
+	top: 0;
+	right: 0;
+	z-index: 100;
+	font-size: 105%;
 }
 
 #nav li {
@@ -92,15 +98,15 @@ header {
 	padding-top: 5px;
 }
 
-#social div{
+#social div {
 	display: inline;
 	padding: 10px;
 }
 
 .page {
-  float: left;
-  width: 100vw;
-  height: 100vh;
+	float: left;
+	width: 100vw;
+	height: 100vh;
 }
 
 .one {
@@ -121,41 +127,40 @@ header {
 }
 
 #contact {
-	padding-top: 7%;
+	padding-top: 10%;
 	padding-left: 15%;
 	padding-right: 15%;
 }
 
 #aboutMe {
-	padding-top: 7%;
+	padding-top: 10%;
 	padding-left: 15%;
 	padding-right: 15%;
 	overflow: scroll;
 }
 
-input[type=text], textarea {
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 5px;
-    box-sizing: border-box;
+input[type=text],textarea {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 5px;
+	box-sizing: border-box;
 }
 
 input[type=submit] {
-    width: 100%;
-    padding:10px;
-    background-color: #009688;
-    color: #E0F2F1;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    text-transform: uppercase;
+	width: 100%;
+	padding: 10px;
+	background-color: #009688;
+	color: #E0F2F1;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-transform: uppercase;
 }
 
 table {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 50%;
 }
-

@@ -1,133 +1,191 @@
 <!DOCTYPE html>
-<html lang="en-US">
-	<head>
-		<title>Suriosity.com</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-	</head>
-	<body>
-		<script src="https://use.fontawesome.com/1aca107b8e.js"></script>
-		<div id= "container">
-			<header>
-				<img src="me.png" alt="Nalin Suri" width="200px" id="mePic">
-				<div id="name">Nalin Suri</div>
-				<ul id="nav">
-					<li>
-						<a href="#aboutMe">ABOUT ME</a>
-					</li>
-					<!--<li>
-						<a href="#myWork">MY WORK</a>
-					</li>
-					-->
-					<!--<li>
-						<a href="#resume">RESUME</a>
-					</li>
-					-->
-					<li>
-						<a href="#social">LINKS</a>
-					</li>
-					<li>
-						<a href="#contact">CONTACT</a>
-					</li>
-				</ul>
-			</header>
+<html>
+<head>
+	<title>Suriosity.com</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
 
-			<div id= "aboutMe">
-				<h3>
-					About Me:
-				</h3>
-				<p id= "welcome">
-					Welcome to Suriosity.com, an informal website where I would like to tell you a little about myself.		
-				</p>
-				<p>
-					From the picture and the caption beneath the picture, you'll see what I look like and my name. A picture can be worth a thousand words but I would like to give you a thousand and two words about myself, so here it is. I am a proud Panther, representing FIU; I am a motivated and responsible person, always trying to give 110%; I am a curious young man, trying to figure out what life is all about and how things work. My ambitions and desires in life are simple: I want to be happy most of all, and I want to become an acknowledged software developer.
-				</p>
-				<p>
-					My interest in computers has been around since I was a young child and has cultivated into a passion that I like to sink myself into whenever I can. When I was first introduced to programming, I was left stupefied. I was flabbergasted at what I could make a computer do; and at that point all I had done was make a computer say "Hello World." I enrolled in an "Intro to C++" class and learned about the basic terms and concepts in Computer Science. I was able to use loops and read files and do much more which astounded me at that time. But then I realized that the more I knew, the more I didn't know. When given the choice to continue the course and take the second level "Objected Oriented Programming with C++", I gladly took it. I was intellectually challenged with the once daunting concepts such as linked lists and inheritance. Fortunately for me, I had a friend, who become a mentor in many ways, and another pal, who I was taking the class with, help explain, conceptualize, and soldify the concepts. 
-				</p>
-				<p>
-					Since then, I've dabbled with HTML/CSS, became familiar with the Linux shell, and am now in pursuit of understanding another object oriented programming language: Java, which I would like to use to create Android applications. In the coming future, I know I would like develop iOS apps using Swift, Apple's proprietary language, and would also like to learn JavaScript to make my webpages more interactive.s
-				</p>
-				<p>
-					Besides that, in my free time, I like to enjoy the natural beauty of life. Living in Miami has given me no shortage of the ability to do as such. I love going to the beach and seeing the never-ending horizon atop the water and the awe-inspiring sunsets. I also love to play and watch basketball. My favorite team in the NBA is, and always has been the Miami Heat. Besides basketball, my friends have also built up my involvement and liking of ultimate frisbee.
-				</p>
-				<p>
+<body>
+	<script src="https://use.fontawesome.com/1aca107b8e.js">
+	</script> <video autoplay="" id="bgVideo" loop="" poster=
+	"White-Keyboard.jpg"><source src="White-Keyboard.webm" type="video/webm">
+	<source src="White-Keyboard.ogv" type="video/ogv"> <source src=
+	"White-Keyboard.mp4" type="video/mp4"></video>
 
-					In closing, below are links to my Github, where most of my work and projects are located, and my LinkedIn profile, where we can connect if you'd like. There is also a little section which will allow you to contact me if you would like!
-				</p>
-			</div>
-			<div id="social">
-				<h3>Links:</h3>
-				<ul >
-					<li>
-						<a href="https://github.com/NSuri1" target="_blank" id="git">
-							<i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.linkedin.com/in/nalin-suri-a4aaa6115" target=	"_blank" id="linked">
-							<i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
-						</a>
-					</li>			
-				</ul>
-			</div>
-			<div id="contact">
-			<h3>Contact Me:</h3>
-				<form name="htmlform" method="post" action="sendMail.php">
-					<table width="450px">
-						</tr>
-<tr>
- <td >
-  <label for="first">First Name</label>
- </td>
- <td >
-  <input  type="text" name="first_name" maxlength="40" size="10">
- </td>
-</tr>
+	<header>
+		<ul id="nav">
+			<li>
+				<a href="#home">HOME</a>
+			</li>
 
-<tr>
- <td >
-  <label for="last">Last Name</label>
- </td>
- <td >
-  <input  type="text" name="last_name" maxlength="40" size="25">
- </td>
-</tr>
-<tr>
- <td >
-  <label for="em">Email Address</label>
- </td>
- <td >
-  <input  type="text" name="email" maxlength="80" size="25">
- </td>
 
-</tr>
-<tr>
- <td >
-  <label for="phone">Telephone Number</label>
- </td>
- <td >
-  <input  type="text" name="telephone" maxlength="25" size="25">
- </td>
-</tr>
-<tr>
- <td >
-  <label for="comment">Message</label>
- </td>
- <td >
-  <textarea  name="comments" maxlength="1000" cols="25" rows="5"></textarea>
- </td>
+			<li>
+				<a href="#aboutMe">ABOUT ME</a>
+			</li>
 
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">
- </td>
-</tr>
-</table>
-</form>
+
+			<li id="third">
+				<a href="#contact">CONTACT</a>
+			</li>
+		</ul>
+	</header>
+
+
+	<div class="docScroller">
+		<div class="page one">
+			<div id="home">
+				<img alt="Nalin Suri" id="mePic" src="me.png" width="250px">
+
+				<div class="name">
+					<div id="myName">
+						Nalin Suri
+					</div>
+
+
+					<div id="myCar">
+						Aspiring Software Developer
+					</div>
+				</div>
+
+
+				<div id="social">
+					<div>
+						<a href="https://github.com/NSuri1" id="git" target=
+						"_blank"><i aria-hidden="true" class="fa fa-github-square fa-3x"></i></a>
+					</div>
+
+
+					<div>
+						<a href="https://www.linkedin.com/in/nalin-suri-a4aaa6115" id="linked"
+						target="_blank"><i aria-hidden="true" class=
+						"fa fa-linkedin-square fa-3x"></i></a>
+					</div>
+				</div>
 			</div>
 		</div>
-	</body>
-</html>
 
+
+		<div class="page two">
+			<div id="aboutMe">
+				<p id="welcome">Welcome to Suriosity.com, an informal website where I would
+				like to tell you a little about myself.</p>
+
+
+				<p>From the picture and the caption beneath the picture, you'll see what I
+				look like and my name. A picture can be worth a thousand words but I would
+				like to give you a thousand and two words about myself, so here it is. I am
+				a proud Panther, representing FIU; I am a motivated and responsible person,
+				always trying to give 110%; I am a curious young man, trying to figure out
+				what life is all about and how things work. My ambitions and desires in
+				life are simple: I want to be happy most of all, and I want to become an
+				acknowledged software developer.</p>
+
+
+				<p>My interest in computers has been around since I was a young child and
+				has cultivated into a passion that I like to sink myself into whenever I
+				can. When I was first introduced to programming, I was left stupefied. I
+				was flabbergasted at what I could make a computer do; and at that point all
+				I had done was make a computer say "Hello World." I enrolled in an "Intro
+				to C++" class and learned about the basic terms and concepts in Computer
+				Science. I was able to use loops and read files and do much more which
+				astounded me at that time. But then I realized that the more I knew, the
+				more I didn't know. When given the choice to continue the course and take
+				the second level "Objected Oriented Programming with C++", I gladly took
+				it. I was intellectually challenged with the once daunting concepts such as
+				linked lists and inheritance. Fortunately for me, I had a friend, who
+				become a mentor in many ways, and another pal, who I was taking the class
+				with, help explain, conceptualize, and soldify the concepts.</p>
+
+
+				<p>Since then, I've dabbled with HTML/CSS and PHP (which I used to create
+				this website), became familiar with the Linux shell, and am now in pursuit
+				of understanding another object oriented programming language: Java, which
+				I would like to use to create Android applications. In the coming future, I
+				know I would like develop iOS apps using Swift, Apple's proprietary
+				language, and would also like to learn JavaScript to make my webpages more
+				interactive.s</p>
+
+
+				<p>Besides that, in my free time, I like to enjoy the natural beauty of
+				life. Living in Miami has given me no shortage of the ability to do as
+				such. I love going to the beach and seeing the never-ending horizon atop
+				the water and the awe-inspiring sunsets. I also love to play and watch
+				basketball. My favorite team in the NBA is, and always has been the Miami
+				Heat. Besides basketball, my friends have also built up my involvement and
+				liking of ultimate frisbee.</p>
+
+
+				<p>In closing, below are links to my Github, where most of my work and
+				projects are located, and my LinkedIn profile, where we can connect if
+				you'd like. There is also a little section which will allow you to contact
+				me if you would like!</p>
+			</div>
+		</div>
+
+
+		<div class="page three">
+			<div id="contact">
+				<h3>Contact Me:</h3>
+
+
+				<form action="sendMail.php" id="htmlform" method="post" name="htmlform">
+					<table width="450px">
+						<tr>
+							<td><label for="first">First Name</label>
+							</td>
+
+							<td><input maxlength="40" name="first_name" size="10" type="text">
+							</td>
+						</tr>
+
+
+						<tr>
+							<td><label for="last">Last Name</label>
+							</td>
+
+							<td><input maxlength="40" name="last_name" size="25" type="text">
+							</td>
+						</tr>
+
+
+						<tr>
+							<td><label for="em">Email Address</label>
+							</td>
+
+							<td><input maxlength="80" name="email" size="25" type="text">
+							</td>
+						</tr>
+
+
+						<tr>
+							<td><label for="phone">Telephone Number</label>
+							</td>
+
+							<td><input maxlength="25" name="telephone" size="25" type="text">
+							</td>
+						</tr>
+
+
+						<tr>
+							<td><label for="comment">Message</label>
+							</td>
+
+							<td>
+							<textarea cols="25" maxlength="1000" name="comments" rows=
+							"5"></textarea>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td colspan="2" style="text-align:center"><input type="submit" value=
+							"Submit">
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

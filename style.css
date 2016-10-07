@@ -1,96 +1,150 @@
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+body{
+	margin: 0;
+	font-family: Impact, Charcoal, sans-serif;
+}
 
-body {
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
-    background-image: url("back.png");
-    color: #E0F2F1;
-} 
-
-#container {
-	padding-left: 15%;
-	padding-right: 15%;
+video#bgVideo { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(White-Keyboard.jpg) no-repeat;
+    background-size: cover; 
+}
+ @media screen and (max-device-width: 800px) {
+    html {
+         background: url(White-Keyboard.jpg) #000 no-repeat center center fixed;
+    }
+    #bgVideo {
+        display: none;
+    }
 }
 
 header {
-	text-align: center;
-	color: #009688;
-
+	width: 100%;
+	padding: 5px;
+	text-align: right;
+	background-color: #111;
+	border: solid #000;
+	position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    font-size: 105%;
 }
 
-h3{
-	color: #009688;
+#nav li {
+	display: inline;
+	padding-left: 10px;
+	margin-left: 3%;
+	list-style: none;
+}
+
+#social a {
+	color: #111;
+}
+
+#social a:hover {
+	color: #555;
+}
+
+#third {
+	margin-right: 2%;
+}
+
+#nav a {
+	color: #DDD;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	color: #999;
 }
 
 #mePic {
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
 }
 
-#name {
-	padding-top: 15px;
-	font-size: 2em;
-	font-weight: bolder;
+#myName {
+	font-size: 200%;
 }
 
-#nav {
-    border-top: solid #009688;
-    border-bottom: solid #009688;
-    padding-top: 5px;
-    padding-bottom: 5px;
+#myCar {
+	font-size: 125%;
 }
 
-a {
-	color: #E0F2F1;
+#social {
+	padding-top: 5px;
 }
 
-a:hover {
-	color: #009688;
+#social div{
+	display: inline;
+	padding: 10px;
 }
 
-#first {
+.page {
+  float: left;
+  width: 100vw;
+  height: 100vh;
+}
+
+.docScroller {
+  overflow-x: hidden;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-scroll-snap-points-y: repeat(100%);
+      -ms-scroll-snap-points-y: repeat(100%);
+          scroll-snap-points-y: repeat(100%);
+  -webkit-scroll-snap-type: mandatory;
+      -ms-scroll-snap-type: mandatory;
+          scroll-snap-type: mandatory;
+  -webkit-scroll-snap-destination: 100% 0%;
+      -ms-scroll-snap-destination: 100% 0%;
+          scroll-snap-destination: 100% 0%;
+}
+
+.one {
 	text-align: center;
 }
 
-#linked, #git {
-	padding: 5px;
-	margin-right: 15px;
-	margin-left: 15px;
-	color: #E0F2F1;
+.two {
+	background: #FFF;
 }
 
-#linked:hover, #git:hover {
-	color: #009688;
+.three {
+	background: #999;
+	text-align: center;
 }
 
-#nav, #social {
-	list-style: none;
+#home {
+	padding-top: 15%;
 }
 
-#social li, #nav li {
-	display: inline-block;
+#contact {
+	padding-top: 7%;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
-#nav li{
-	padding-left: 9%;
-	padding-right: 9%;
-}
-
-#social ul {
-    display: flex;
-    justify-content:center;
-}
-
-#aboutMe, #social{
-	border-bottom: dotted #009688;
-	padding-bottom: 10px;
-}
-
-table {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    width: 50%;
+#aboutMe {
+	padding-top: 7%;
+	padding-left: 15%;
+	padding-right: 15%;
+	overflow: scroll;
 }
 
 input[type=text], textarea {
@@ -111,3 +165,11 @@ input[type=submit] {
     cursor: pointer;
     text-transform: uppercase;
 }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 50%;
+}
+

@@ -150,8 +150,8 @@ input[type=text],textarea {
 input[type=submit] {
 	width: 100%;
 	padding: 10px;
-	background-color: #009688;
-	color: #E0F2F1;
+	background-color: #111;
+	color: #DDD;
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;

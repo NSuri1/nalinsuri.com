@@ -1,0 +1,166 @@
+body {
+	margin: 0;
+	font-family: Impact,Charcoal,sans-serif;
+}
+
+p,table {
+	font-family: "Lucida Console",Monaco,monospace;
+}
+
+video#bgVideo {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url(White-Keyboard.jpg) no-repeat;
+	background-size: cover;
+}
+
+@media screen and (max-device-width: 800px) {
+	html {
+		background: url(White-Keyboard.jpg) #FFF no-repeat center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	#bgVideo {
+		display: none;
+	}
+}
+
+header {
+	width: 100%;
+	padding: 5px;
+	text-align: right;
+	background-color: #111;
+	border: solid #000;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 100;
+	font-size: 105%;
+}
+
+#nav li {
+	display: inline;
+	padding-left: 10px;
+	margin-left: 3%;
+	list-style: none;
+}
+
+#social a {
+	color: #111;
+}
+
+#social a:hover {
+	color: #555;
+}
+
+#third {
+	margin-right: 2%;
+}
+
+#nav a {
+	color: #DDD;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	color: #999;
+}
+
+#mePic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+#myName {
+	font-size: 200%;
+}
+
+#myCar {
+	font-size: 125%;
+}
+
+#social {
+	padding-top: 5px;
+}
+
+#social div {
+	display: inline;
+	padding: 10px;
+}
+
+.page {
+	float: left;
+	width: 100vw;
+	height: 100vh;
+}
+
+.one {
+	text-align: center;
+}
+
+.two {
+	background: #FFF;
+}
+
+.three {
+	background: #FFF;
+	text-align: center;
+}
+
+#home {
+	padding-top: 15%;
+}
+
+#contact {
+	padding-top: 10%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+#aboutMe {
+	padding-top: 10%;
+	padding-left: 15%;
+	padding-right: 15%;
+	overflow: scroll;
+}
+
+input[type=text],textarea {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 100%;
+	padding: 10px;
+	background-color: #111;
+	color: #DDD;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 50%;
+}

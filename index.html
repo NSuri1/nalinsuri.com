@@ -2,80 +2,58 @@
 <html>
 <head>
 	<title>Suriosity.com</title>
-	<link href="style.css" rel="stylesheet" type="text/css">
-	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link href="res/style.css" rel="stylesheet" type="text/css">
+	<link href="res/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link rel="apple-touch-icon" href="res/apple-touch-icon.png">
+	<link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+	<link href="res/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://use.fontawesome.com/1aca107b8e.js"></script> 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="script.js"></script>
-
+	<script src="res/script.js"></script>
 </head>
 
 <body>
-	<video autoplay="" id="bgVideo" loop="" poster="Vids/White-Keyboard.jpg">
-	<source src="Vids/White-Keyboard.webm" type="video/webm">
-	<source src="Vids/White-Keyboard.ogv" type="video/ogv"> 
-	<source src="Vids/White-Keyboard.mp4" type="video/mp4">
-	</video>
-
-	<header>
-		<ul id="nav">
-			<li>
-				<a href="#one" target="_self">HOME</a>
-			</li>
-
-
-			<li>
-				<a href="#two" target="_self">ABOUT ME</a>
-			</li>
-
-
-			<li id="third">
-				<a href="#three" target="_self">CONTACT</a>
-			</li>
-		</ul>
-	</header>
-
-
-	<div class="page one" id="one">
-		<div id="home">
-			<img alt="Nalin Suri" id="mePic" src="me.png" width="250px">
-
-			<div class="name">
-				<div id="myName">
-					Nalin Suri
-				</div>
-
-
-				<div id="myCar">
-					Aspiring Software Developer
-				</div>
+	<div id="container">
+		<nav class="navbar navbar-inverse" style="margin-bottom: 0px;">
+			<div class="container-fluid">
+				<ul class="nav navbar-nav navbar-right text-center">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#work">My Work</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
 			</div>
+		</nav>
 
-
+		<div class="text-primary text-center jumbotron" id="home">
+			<img src="res/me.png" alt="Profile Picture" id="mePic">
+			<h1>Nalin Suri</h1>
+			<h4>Aspiring Software Developer</h4>
 			<div id="social">
 				<div>
-					<a href="https://github.com/NSuri1" id="git" target="_blank"><i aria-hidden="true" class="fa fa-github-square fa-3x"></i></a>
+					<a href="https://github.com/NSuri1" id="git" target="_blank"><i aria-hidden="true" class="fa fa-github-square fa-4x "></i></a>
 				</div>
 
 				<div>
 					<a href="https://www.linkedin.com/in/nalin-suri-a4aaa6115" id="linked"
-					target="_blank"><i aria-hidden="true" class="fa fa-linkedin-square fa-3x"></i></a>
+					target="_blank"><i aria-hidden="true" class="fa fa-linkedin-square fa-4x"></i></a>
 				</div>
 
 				<div>
-					<a href="https://twitter.com/suriousN" id="twitter" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/suriousN" id="twitter" target="_blank"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i></a>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="page two" id="two">
-		<div id="about">
+
+		<div id="about" class="side-margins section">
+			<h2 class="underline">About Me</h2>
 			<p id="welcome">Welcome to Suriosity.com, an informal website where I would
 			like to tell you a little about myself.</p>
 
 
-			<p>From the picture and the caption beneath the picture, you'll see what I
+			<p>From the picture and caption above, you'll see what I
 			look like and my name. A picture can be worth a thousand words but I would
 			like to give you a thousand and two words about myself, so here it is. I am
 			a proud Panther, representing FIU; I am a motivated and responsible person,
@@ -112,65 +90,103 @@
 			basketball, my friends have also built up my involvement and liking of
 			ultimate frisbee.</p>
 		</div>
-	</div>
-	<div class="page three" id="three">
-		<div id="contact">
-			<form action="sendMail.php" id="htmlform" method="post" name="htmlform">
-				<table width="450px">
-					<tr>
-						<td><label for="first">First Name</label>
-						</td>
 
-						<td><input maxlength="40" name="first_name" size="10" type="text">
-						</td>
-					</tr>
+		<div id="work" class="side-margins section">
+			<h2 class="underline">My Work</h2>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<a href="https://www.suriosity.com/FCC/Tribute" target="_blank">
+							<div class="box">
+								<img src="res/apple.png" alt="Apple Logo" class="image">
+								<div class="caption">A Tribute To Apple</div>				
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="#" target="_blank">
+							<div class="box">
+								<img src="" class="image">
+								<div class="caption"></div>				
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="#" target="_blank">
+							<div class="box">
+								<img src="" class="image">
+								<div class="caption"></div>				
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<a href="#" target="_blank">
+							<div class="box">
+								<img src="" class="image">
+								<div class="caption"></div>				
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="#" target="_blank">
+							<div class="box">
+								<img src="" class="image">
+								<div class="caption"></div>				
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="#" target="_blank">
+							<div class="box">
+								<img src="" class="image">
+								<div class="caption"></div>				
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
-
-					<tr>
-						<td><label for="last">Last Name</label>
-						</td>
-
-						<td><input maxlength="40" name="last_name" size="25" type="text">
-						</td>
-					</tr>
-
-
-					<tr>
-						<td><label for="em">Email Address</label>
-						</td>
-
-						<td><input maxlength="80" name="email" size="25" type="text">
-						</td>
-					</tr>
-
-
-					<tr>
-						<td><label for="phone">Telephone Number</label>
-						</td>
-
-						<td><input maxlength="25" name="telephone" size="25" type="text">
-						</td>
-					</tr>
-
-
-					<tr>
-						<td><label for="comment">Message</label>
-						</td>
-
-						<td>
-						<textarea cols="25" maxlength="1000" name="comments" rows="5"></textarea>
-						</td>
-					</tr>
-
-
-					<tr>
-						<td colspan="2" style="text-align:center"><input type="submit" value=
-						"Submit">
-						</td>
-					</tr>
-				</table>
+		<div id="contact" class="section side-margins">
+			<h2 class="underline">Contact</h2>
+			<form class="form-horizontal" action="sendMail.php" id="htmlform" method="post" name="htmlform">
+				<div class="form-group">
+					<label for="first" class="control-label col-md-3">First Name:</label>
+					<div class="col-md-9">
+						<input maxlength="40" name="first_name" size="10" type="text" class="form-control">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="last" class="control-label col-md-3">Last Name:</label>
+					<div class="col-md-9">
+						<input maxlength="40" name="last_name" size="25" type="text" class="form-control">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="em" class="control-label col-md-3">Email Address:</label>
+					<div class="col-md-9">
+						<input maxlength="80" name="email" size="25" type="text" class="form-control">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="phone" class="control-label col-md-3">Telephone Number:</label>
+					<div class="col-md-9">
+						<input maxlength="25" name="telephone" size="25" type="text" class="form-control">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="comment" class="control-label col-md-3">Message:</label>
+					<div class="col-md-9">
+						<textarea cols="25" maxlength="1000" name="comments" rows="5" class="form-control"></textarea>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-default btn-block btn-primary">Submit</button>
 			</form>
 		</div>
+		<br/>
+		
 	</div>
 </body>
 </html>

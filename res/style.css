@@ -1,0 +1,68 @@
+p {
+	font-size: 1.2em;
+}
+
+#container {
+	font-family: 'Bitter', serif;
+}
+
+#mePic {
+	max-width: 250px;
+	min-width: 100px;
+	width: auto;
+}
+
+#social a {
+	color: #111;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#social a:hover {
+	color: #555;
+}
+
+#social {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.underline {
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+
+.side-margins {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.section {
+	padding-top: 20px;
+}
+
+.box {
+	margin: 10px;
+	box-shadow: 10px 10px 5px grey;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 30%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #EEEEEE; 
+}
+
+.image {
+	width: 70%;
+}
+
+.caption {
+	color: #000;
+	padding-top: 5%;
+	font-size: 1.7em;
+}

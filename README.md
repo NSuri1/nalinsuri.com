@@ -1,11 +1,3 @@
-# gatsby-starter-2column-portfolio
-A minimalistic portfolio starter for [Gatsby](https://www.gatsbyjs.org/) with a 2 column layout.  
-
-![website-preview](https://user-images.githubusercontent.com/2060518/38455405-416af23e-3a95-11e8-92f9-ae27f7b601a6.png)
-
-## Demo
-See it in action [here](http://2column-portfolio.surge.sh/).
-
 ## Installation
 ```
 gatsby new gatsby-site https://github.com/praagyajoshi/gatsby-starter-2column-portfolio

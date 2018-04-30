@@ -12,7 +12,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "<your-tracking-id-here>",
+        trackingId: "UA-118406104-1",
         head: true
       }
     },
@@ -21,6 +21,6 @@ module.exports = {
     title: 'Nalin Suri',
     description: '',
     keywords: 'personal website',
-    url: 'http://www.suriosity.com'
+    url: 'http://www.nalinsuri.com'
   }
 };

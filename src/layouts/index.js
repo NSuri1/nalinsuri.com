@@ -44,3 +44,16 @@ class TemplateWrapper extends React.Component {
 }
 
 export default TemplateWrapper
+
+export const pageQuery = graphql`
+  query IndexQuery {
+    site {
+      siteMetadata {
+        title
+        description
+        url
+        keywords
+      }
+    }
+  }
+`

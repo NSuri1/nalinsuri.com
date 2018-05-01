@@ -16,7 +16,7 @@ class ExperienceSection extends React.Component {
             title='Ultimate Software'
             position='Software Engineering Intern'
             logo={ultimateLogo}
-            link='#'
+            link='https://www.ultimatesoftware.com/'
             timeperiod='Jan 2018 - Apr 2018'
             subtitle='Worked on the Product Research and Innovation 
                       Strategy team to prototype an Ionic application
@@ -31,7 +31,7 @@ class ExperienceSection extends React.Component {
             title='CIARA at FIU'
             position='NSF Software Defined Networking Fellow'
             logo={ciaraLogo}
-            link='#'
+            link='http://www.ciara.fiu.edu/'
             timeperiod='June 2017 - Dec 2017'
             subtitle='Developed scripts and installed infrastruture
                       to store and analyze network traffic metadata 
@@ -46,7 +46,7 @@ class ExperienceSection extends React.Component {
             title='BlackBerry Limited'
             position='Automation Test Developer Intern'
             logo={blackberryLogo}
-            link='#'
+            link='https://blackberry.com/'
             timeperiod='Jan 2017 - May 2017'
             subtitle='Contributed to the development of the 
                       in-house test framework and test suite 

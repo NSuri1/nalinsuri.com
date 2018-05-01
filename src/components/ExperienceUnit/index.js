@@ -6,13 +6,15 @@ class ExperienceUnit extends Component {
   render() {
     return (
       <div className="experience-unit col-xs-12 col-sm-6 col-md-4">
-        <div
-          className="image"
-          style={{
-            backgroundImage: `url(${this.props.logo})`,
-            backgroundColor: this.props.colour
-          }}>
-        </div>
+        <a href={this.props.link} target="_blank">
+          <div
+            className="image"
+            style={{
+              backgroundImage: `url(${this.props.logo})`,
+              backgroundColor: this.props.colour
+            }}>
+          </div>
+        </a>
         <div className="title bold">
           {this.props.title}
         </div>

@@ -33,10 +33,13 @@ class ExperienceSection extends React.Component {
             logo={ciaraLogo}
             link='#'
             timeperiod='June 2017 - Dec 2017'
-            subtitle='Worked to implement infrastruture to store and analyze
-                      network traffic metadata which was then used to
-                      build out reports for the NSF. The tools and languages I 
-                      used were Elasticsearch, Logstash, Kibana, Grafana, and Python.'
+            subtitle='Worked to implement infrastruture and scripts 
+                      to store and analyze network traffic metadata 
+                      from public institutions in South America.
+                      This information was used to build out 
+                      reports and visualizations for the NSF. 
+                      The tools and languages I used were 
+                      Elasticsearch, Logstash, Kibana, Grafana, and Python.'
           />
           <ExperienceUnit
             colour='#000000'
@@ -45,7 +48,7 @@ class ExperienceSection extends React.Component {
             logo={blackberryLogo}
             link='#'
             timeperiod='Jan 2017 - May 2017'
-            subtitle='Learned about testing through writing, running, 
+            subtitle='Learned about testing through writing, running, maintaining,
                       and triaging tests using various tools and languages 
                       such as JIRA, Squish, Python, Java, and Bash.'
           />

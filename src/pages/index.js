@@ -8,15 +8,6 @@ import './style.scss'
 
 const IndexPage = () => (
   <div className="index">
-    <div className="aside">
-      <div className="top">
-        <About />
-      </div>
-      <div className="bottom">
-        <Links />
-      </div>
-    </div>
-
     <div className="main">
       <h5>
         Hello, I'm <span className="bold">Nalin Suri</span>
@@ -28,6 +19,15 @@ const IndexPage = () => (
 
       <ExperienceSection />
       {/* <ProjectsSection /> */}
+    </div>
+
+    <div className="aside">
+      <div className="top">
+        <About />
+      </div>
+      <div className="bottom">
+        <Links />
+      </div>
     </div>
   </div>
 )

@@ -21,8 +21,8 @@ class ExperienceSection extends React.Component {
             subtitle='Worked on the Product Research and Innovation 
                       Strategy team to prototype an Ionic application
                       with a NodeJS backend for a customer conference 
-                      thrown by the company. Also developed a template 
-                      of the company product to give the team a starting
+                      and developed a template of the company 
+                      product to give the team a starting
                       point from which to begin other projects. 
                       '
           />
@@ -33,12 +33,12 @@ class ExperienceSection extends React.Component {
             logo={ciaraLogo}
             link='#'
             timeperiod='June 2017 - Dec 2017'
-            subtitle='Worked to implement infrastruture and scripts 
+            subtitle='Developed scripts and installed infrastruture
                       to store and analyze network traffic metadata 
                       from public institutions in South America.
                       This information was used to build out 
                       reports and visualizations for the NSF. 
-                      The tools and languages I used were 
+                      The tools and languages used were 
                       Elasticsearch, Logstash, Kibana, Grafana, and Python.'
           />
           <ExperienceUnit
@@ -48,8 +48,9 @@ class ExperienceSection extends React.Component {
             logo={blackberryLogo}
             link='#'
             timeperiod='Jan 2017 - May 2017'
-            subtitle='Learned about testing through writing, running, maintaining,
-                      and triaging tests using various tools and languages 
+            subtitle='Contributed to the development of the 
+                      in-house test framework and test suite 
+                      using various tools and languages 
                       such as JIRA, Squish, Python, Java, and Bash.'
           />
         </div>

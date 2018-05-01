@@ -19,6 +19,11 @@ class Links extends Component {
             </a>
           </li>
           <li className="icon">
+            <a href="https://resume.creddle.io/resume/4d65p1u4xsk" target="_blank">
+              <i className="fa fa-file-text"></i>
+            </a>
+          </li>
+          <li className="icon">
             <a href="mailto:nalinsuri@gmail.com" target="_blank">
               <i className="fa fa-envelope"></i>
             </a>

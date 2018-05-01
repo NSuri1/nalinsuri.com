@@ -18,7 +18,13 @@ class ExperienceSection extends React.Component {
             logo={ultimateLogo}
             link='#'
             timeperiod='Jan 2018 - Apr 2018'
-            subtitle=''
+            subtitle='Worked on the Product Research and Innovation 
+                      Strategy team to prototype an Ionic application
+                      with a NodeJS backend for a customer conference 
+                      thrown by the company. Also developed a template 
+                      of the company product to give the team a starting
+                      point from which to begin other projects. 
+                      '
           />
           <ExperienceUnit
             colour='#FFFFFF'
@@ -27,7 +33,10 @@ class ExperienceSection extends React.Component {
             logo={ciaraLogo}
             link='#'
             timeperiod='June 2017 - Dec 2017'
-            subtitle=''
+            subtitle='Worked to implement infrastruture to store and analyze
+                      network traffic metadata which was then used to
+                      build out reports for the NSF. The tools and languages I 
+                      used were Elasticsearch, Logstash, Kibana, Grafana, and Python.'
           />
           <ExperienceUnit
             colour='#000000'
@@ -36,7 +45,9 @@ class ExperienceSection extends React.Component {
             logo={blackberryLogo}
             link='#'
             timeperiod='Jan 2017 - May 2017'
-            subtitle=''
+            subtitle='Learned about testing through writing, running, 
+                      and triaging tests using various tools and languages 
+                      such as JIRA, Squish, Python, Java, and Bash.'
           />
         </div>
       </Section>

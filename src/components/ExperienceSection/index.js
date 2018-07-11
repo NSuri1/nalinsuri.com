@@ -5,12 +5,28 @@ import ExperienceUnit from '../ExperienceUnit'
 import blackberryLogo from '../../assets/images/experience/blackberry-logo.jpg'
 import ciaraLogo from '../../assets/images/experience/ciara-logo.jpg'
 import ultimateLogo from '../../assets/images/experience/ultimate-logo.png'
+import jpmorganLogo from '../../assets/images/experience/jpmorgan-logo.jpg'
 
 class ExperienceSection extends React.Component {
   render() {
     return (
       <Section title="Experience">
         <div className="row">
+          <ExperienceUnit
+              colour='#FFFFFF'
+              title='JPMorgan Chase'
+              position='Software Engineering Intern'
+              logo={jpmorganLogo}
+              link='https://www.jpmorganchase.com/'
+              timeperiod='June 2018 - Aug 2018'
+              subtitle='Worked under the Asset and Wealth Management 
+                        Line of Business to implement features and 
+                        bug fixes using React and Spring Boot to a 
+                        trading application utilized by 
+                        financial advisors to execute, edit, 
+                        and view orders across various asset classes. 
+                        '
+          />
           <ExperienceUnit
             colour='#FFFFFF'
             title='Ultimate Software'

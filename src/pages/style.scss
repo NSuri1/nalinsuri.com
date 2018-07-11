@@ -24,7 +24,7 @@ $aside-width: 35%;
 
   // Setting the width and padding sizes
   @include media('>=large') {
-    height: 100vh;
+    // height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +39,7 @@ $aside-width: 35%;
     padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
   }
   @include media('>=medium', '<large') {
-    height: 100vh;
+    // height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

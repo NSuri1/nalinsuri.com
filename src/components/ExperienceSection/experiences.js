@@ -2,8 +2,40 @@ import blackberryLogo from '../../assets/images/experience/blackberry-logo.jpg'
 import ciaraLogo from '../../assets/images/experience/ciara-logo.jpg'
 import ultimateLogo from '../../assets/images/experience/ultimate-logo.png'
 import jpmorganLogo from '../../assets/images/experience/jpmorgan-logo.jpg'
+import googleLogo from '../../assets/images/experience/google-logo.jpg'
+import facebookLogo from '../../assets/images/experience/facebook-logo.jpg'
 
 export default [
+    { 
+        color: '#1778F2',
+        title: 'Facebook',
+        position: 'Software Engineering Intern',
+        logo: facebookLogo,
+        link: 'https://www.facebook.com/',
+        start: 'Aug 2019',
+        end: 'Nov 2019',
+        subtitle: '',
+    },
+    { 
+        color: '#FFFFFF',
+        title: 'Google',
+        position: 'Software Engineering Intern',
+        logo: googleLogo,
+        link: 'https://www.google.com/',
+        start: 'May 2019',
+        end: 'Aug 2019',
+        subtitle: '',
+    },
+    { 
+        color: '#FFFFFF',
+        title: 'Ultimate Software',
+        position: 'Software Engineering Intern',
+        logo: ultimateLogo,
+        link: 'https://www.ultimatesoftware.com/',
+        start: 'Jan 2019',
+        end: 'May 2019',
+        subtitle: '',
+    },
     { 
         color: '#FFFFFF',
         title: 'JPMorgan Chase',

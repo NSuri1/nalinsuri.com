@@ -9,7 +9,6 @@ class ExperienceSection extends React.Component {
       <Section title="Experience">
         <div className="row">
           {experiences.map(experience => {
-            console.log(experience);
             const {color, title, position, logo, link, start, end, subtitle} = experience
             return <ExperienceUnit
               colour={color}

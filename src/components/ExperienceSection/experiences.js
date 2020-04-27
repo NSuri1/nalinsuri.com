@@ -3,11 +3,11 @@ import ciaraLogo from '../../assets/images/experience/ciara-logo.jpg'
 import ultimateLogo from '../../assets/images/experience/ultimate-logo.png'
 import jpmorganLogo from '../../assets/images/experience/jpmorgan-logo.jpg'
 import googleLogo from '../../assets/images/experience/google-logo.png'
-import facebookLogo from '../../assets/images/experience/facebook-logo.png'
+import facebookLogo from '../../assets/images/experience/facebook-logo.jpg'
 
 export default [
     { 
-        color: '#1778F2',
+        color: '#FFFFFF',
         title: 'Facebook',
         position: 'Software Engineering Intern',
         logo: facebookLogo,
